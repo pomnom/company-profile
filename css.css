@@ -1,5 +1,5 @@
 body {
-    background-image: url('bg.jpg');
+    background-image: url('bg-min.jpg');
 }
 
 .tag-line {
@@ -16,7 +16,14 @@ body {
     font-size: 10vmax;
     margin: 0%;
 }
-#texthover h5,p,i {
+#texthover h5 {
+    transition: all 300ms;
+    color: #64B5F6;
+}
+#texthover p {
+    transition: all 300ms;
+}
+#texthover i {
     transition: all 300ms;
 }
 #texthover h5:hover{
