@@ -23,7 +23,7 @@
         <div class="container">
             <div class="nav-wrapper">
                 <a href="#!" class="brand-logo">
-                    <img src="brand.png" height="60" width="auto" style="vertical-align: middle">
+                    <img src="brand-min.png" height="60" width="auto" style="vertical-align: middle">
                 </a>
                 <ul class="right hide-on-med-and-down">
                     <li class="active waves-effect waves-light "><a href="#">Beranda</a></li>
