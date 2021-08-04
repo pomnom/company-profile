@@ -7,8 +7,6 @@
     <title>Document</title>
     <!-- Compiled and minified CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-    <!-- Compiled and minified JavaScript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <!--Import Google Icon Font-->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Pacifico&display=swap"
@@ -22,12 +20,12 @@
         <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>
         <div class="container">
             <div class="nav-wrapper">
-                <a href="#!" class="brand-logo">
+                <a href="index.html" class="brand-logo">
                     <img src="brand-min.png" height="60" width="auto" style="vertical-align: middle">
                 </a>
                 <ul class="right hide-on-med-and-down">
-                    <li class="active waves-effect waves-light "><a href="#">Beranda</a></li>
-                    <li class="waves-effect waves-light "><a href="#">Produk</a></li>
+                    <li class="active waves-effect waves-light "><a href="index.html">Beranda</a></li>
+                    <li class="waves-effect waves-light "><a href="produk.html">Produk</a></li>
                     <li class="waves-effect waves-light "><a href="#">Tentang Kami</a></li>
                 </ul>
             </div>
@@ -61,12 +59,12 @@
             <h1 class="center-align" style="font-family: Pacifico;">Kenapa Memilih Kami?</h1>
             <div class="col s12 m4">
                 <div class="center-align" style="margin: 5PX;">
-                        <div class="card-content center-align" id="texthover">
-                            <h5><b>Peduli</b></h5>
-                            <i class="material-icons large md-48 deep-orange-text text-lighten-4">favorite_border</i>
-                            <p class="mb-2 black-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil,
-                                enim vel!</p>
-                        </div>
+                    <div class="card-content center-align" id="texthover">
+                        <h5><b>Peduli</b></h5>
+                        <i class="material-icons large md-48 deep-orange-text text-lighten-4">favorite_border</i>
+                        <p class="mb-2 black-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil,
+                            enim vel!</p>
+                    </div>
                 </div>
             </div>
             <div class="col s12 m4">
@@ -90,39 +88,48 @@
                 </div>
             </div>
         </div>
+        <br>
     </div>
-    <br>
 
-
-    <footer class="page-footer blue lighten-2">
+    <!-- footer -->
+    <footer class="page-footer black">
         <div class="container">
             <div class="row">
-                <div class="col l6 s12">
-                    <h5 class="white-text">Ini Brand</h5>
-                    <p class="grey-text text-lighten-4">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Distinctio architecto nobis, ex accusantium asperiores necessitatibus temporibus ut, tenetur
-                        repellendus dignissimos eos tempore ducimus qui eum vitae? Ipsam omnis rem tenetur quo, in at
-                        debitis, magni perspiciatis obcaecati, maiores officiis temporibus.</p>
-                </div>
-                <div class="col l4 offset-l2 s12">
-                    <h5 class="white-text">More About Us</h5>
-                    <ul>
-                        <li><a class="grey-text text-lighten-3" href="#!">Instagram</a></li>
-                        <li><a class="grey-text text-lighten-3" href="#!">Facebook</a></li>
-                        <li><a class="grey-text text-lighten-3" href="#!">Twitter</a></li>
-                        <li><a class="grey-text text-lighten-3" href="#!">Youtube</a></li>
-                    </ul>
+                <div class="card card card-default" style="border-radius: 25px;">
+                    <div class="card-content center-align">
+                        <h4 class="black-text" style="margin-bottom: 25px; margin-top: 0%;">Berlangganan</h4>
+                        <form style="margin: 0%;">
+                            <div class="row" style="margin: 0%;">
+                                <div class="input-field col m4 s6">
+                                    <input placeholder="Fina Rahmania" id="name" type="text" class="validate">
+                                    <label class="active">Nama</label>
+                                </div>
+                                <div class="input-field col m4 s6">
+                                    <input placeholder="contoh@mail.id" id="email" type="email" class="validate">
+                                    <label class="active">Email</label>
+                                </div>
+                                <div class="input-field col m4 s6">
+                                    <div class="input-field col s12 center-align">
+                                        <button class="btn black waves-effect waves-light z-depth-2" type="submit"
+                                            name="action">
+                                            <i class="material-icons left">subscriptions</i>Berlanggan</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
                 </div>
             </div>
         </div>
         <div class="footer-copyright">
-            <div class="container">
+            <div class="container center-align">
                 © Brand 2021
             </div>
         </div>
     </footer>
-    <!--JavaScript at end of body for optimized loading-->
-    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script type="text/javascript" src="js.js"></script>
     <script>
         document.addEventListener('DOMContentLoaded', function () {
             var elems = document.querySelectorAll('.sidenav');
